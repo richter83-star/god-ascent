@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import GodSelector from './components/GodSelector';
+import GodSelector from './components/GodSelector.jsx';
 import HexMap from './components/HexMap';
 import DecisionMatrix from './components/DecisionMatrix';
 import StatsDashboard from './components/StatsDashboard';

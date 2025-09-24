@@ -16,9 +16,9 @@ export class MapScene extends Phaser.Scene {
   }
 
   preload() {
-    this.load.atlas('tiles', '/src/assets/images/tile_atlas.png', '/src/assets/images/tile_atlas.json');
-    this.load.atlas('believer_sheet', '/src/assets/images/believer_sheet.png', '/src/assets/images/believer_sheet.json');
-    this.load.image('glow', '/src/assets/images/glow_particle.png');
+    this.load.atlas('tiles', './assets/images/tile_atlas.png', './assets/images/tile_atlas.json');
+    this.load.atlas('believer_sheet', './assets/images/believer_sheet.png', './assets/images/believer_sheet.json');
+    this.load.image('glow', './assets/images/glow_particle.png');
   }
 
   create() {

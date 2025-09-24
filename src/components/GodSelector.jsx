@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { generateGod } from '../systems/GodGenerator.js';
+import { generateGod } from './GodSelector.js';
 
 const GodSelector = ({ onSelect }) => {
   const [selectedId, setSelectedId] = useState(null);
